@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="174.0" prefWidth="350.0" style="-fx-border-color: BLACK;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.app.lib.RemoveBookController">
+   <children>
+      <Label layoutX="40.0" layoutY="47.0" text="ISBN" />
+      <TextField fx:id="isbnInputx" layoutX="101.0" layoutY="43.0" prefHeight="25.0" prefWidth="224.0" />
+      <Button fx:id="cancelRemoveBtn" layoutX="194.0" layoutY="126.0" mnemonicParsing="false" onAction="#cancelRemoveBtnOnActione" style="-fx-background-color: #d33f3f;" text="Cancel" />
+      <Button fx:id="removeBookBtn" layoutX="274.0" layoutY="126.0" mnemonicParsing="false" onAction="#removeOnActionBtn" style="-fx-background-color: RED;" text="Remove">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
